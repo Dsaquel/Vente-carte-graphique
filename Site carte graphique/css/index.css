@@ -67,8 +67,6 @@ img{
     width: 200;
 }
 
-
-
-
-
-
+article{
+    float: right;
+}

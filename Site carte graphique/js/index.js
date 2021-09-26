@@ -81,7 +81,6 @@ function generateCarte(listeCarte){
 
         const body = document.querySelector('body');
         const article = document.createElement("article");  
-        article.classList.add("carte_article");
 
         elementsToCreate.forEach(function(element){
             const elementCreated = document.createElement(element.balise)
@@ -94,6 +93,8 @@ function generateCarte(listeCarte){
         });
         
         body.appendChild(article);
+        article.classList.add("carte_article");
+
     };
 };
 
